@@ -27,7 +27,7 @@ function IdeaGenerator() {
     setVariations(null);
 
     try {
-      const response = await fetch('http://localhost:5678/webhook/second', {
+      const response = await fetch('https://fahisk.app.n8n.cloud/webhook/second', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -58,7 +58,7 @@ function IdeaGenerator() {
     setIsLoading(true);
     setSuggestedIdeas([]);
     try {
-      const response = await fetch('http://localhost:5678/webhook/start', {
+      const response = await fetch('https://fahisk.app.n8n.cloud/webhook/start', {
         method: 'POST',
         headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
         body: JSON.stringify({})
