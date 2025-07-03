@@ -158,7 +158,7 @@ function IdeaGenerator() {
             value={referenceTweets}
             onChange={(e) => setReferenceTweets(e.target.value)}
             rows={6}
-            placeholder="Paste your tweets here. The AI will learn their style, voice, and structure to create better, more personalized content for you."
+            placeholder="Paste  your tweets here. The AI will learn their style, voice, and structure to create better, more personalized content for you."
           />
         </div>
         {/* --- END of new section --- */}
